@@ -16,4 +16,7 @@ formTask.addEventListener("submit", () => {
 
     //appen li ke ul 
     wrapperList.append(taskList);
+
+    //menghilangkan teks input
+    inputform.value="";
 });
